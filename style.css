@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+h1 {
+    color: #4caf50;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+input[type="number"], input[type="checkbox"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+input[type="number"] {
+    width: 80px;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #4caf50;
+}
+
+
+label {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#password {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    min-width: 250px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
